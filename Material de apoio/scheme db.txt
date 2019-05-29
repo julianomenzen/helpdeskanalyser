@@ -1,0 +1,36 @@
+
+Table users {
+  id int [primary key]
+  full_name varchar
+  email varchar 
+  
+}
+
+Table email {
+  id int [primary key]
+  email_title varchar
+  email_text text
+  email_dataset_id int [ref: > dataset.id]
+  email_date date
+  email_user_id int [ref: > users.id]
+}
+
+
+Table feeling {
+  id int [primary key]
+  feeling_name varchar
+}
+
+Table email_feeling {
+  id int [primary key]
+  email_id int [ref: > email.id]
+  feeling_id int [ref: > feeling.id]
+}
+
+Table dataset {
+  id int [primary key]
+  email_id int [ref: > email.id]
+  
+}
+
+
