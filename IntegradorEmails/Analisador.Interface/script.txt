@@ -1,0 +1,11 @@
+﻿create view consulta_bi
+as
+(
+select email.*, sender_email.id as idsenderemail, sender_email.email_sender, sender_to.id as idto, sender_to.email_to, email_feeling.probability, feeling.feeling_name, email_feeling.id as idemailfeeling,
+    feeling.id as idfeeling
+from email
+left join sender_email on email.id = sender_email.emailid
+left join sender_to on email.id = sender_to.emailid
+left join email_feeling on email.id =  email_feeling.emailid   
+left join feeling on email_feeling.feelingid = feeling.id
+  )
