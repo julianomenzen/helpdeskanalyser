@@ -10,11 +10,12 @@ toolbar     = false
 
 ; Host configuration
 [host]
-names = localhost:*, 127.0.0.1:*, *:*, *
+names = localhost:*, 127.0.0.1:*, *:*, *, pgsql.jmenzen.com.br:5432
+
 
 ; db configuration
 [db]
-uri       = sqlite://storage.sqlite
+uri       = postgres://postgres:postgres@pgsql.jmenzen.com.br:5432/jmenzen
 migrate   = true
 pool_size = 10  
 
