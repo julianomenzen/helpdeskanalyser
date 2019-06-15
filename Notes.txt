@@ -1,0 +1,2 @@
+comando para restaurar bkp do banco de dados(senha bd local postgres): 
+ psql -h localhost jmenzen <  /home/miromar/helpdeskanalyser/BKP/base2.bak
