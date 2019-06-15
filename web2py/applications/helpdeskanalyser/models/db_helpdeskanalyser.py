@@ -1,6 +1,6 @@
-# Date: 02/27/2019
+# Date: 14/06/2019
 # Developer: Miromar J. Lima
-# Description: Generate status query for nodes.
+# Description: Generate schema to database.
 
 #Tests
 
