@@ -572,11 +572,19 @@ for (frase, classe) in basecompletateste:
     cur = con.cursor()
     cur.execute('select email_text from email')
     recset = cur.fetchall()
+    
     txtClean = TextUtil()
     textEmail = str()
-    for rec in recset:
-
-        teste = str(rec)
+    cur.execute('select email_title, id, email_text, emailid from email')
+    recsetEmail = cur.fetchall()
+    count = 1
+    # Testa select todos as colunas
+    for recEmail in recsetEmail:
+        print("email_title ", recEmail[0])
+        print("email_id ", recEmail[1])
+        print("email_text ", recEmail[2])
+        print("emailid ", recEmail[3])
+        teste = str(recEmail[2])
         teste = txtClean.removerCaracteresEspeciais(teste)
         print (teste)
         print("-----------------------------------------------------------------------------------------------------------------------------------------")
@@ -592,11 +600,72 @@ for (frase, classe) in basecompletateste:
         novo = extratorpalavras(testestemming)
         #print(novo)
 
-        print(classificador.classify(novo))
+        print("Classificação do email: ",classificador.classify(novo))
+        emailClassificado = classificador.classify(novo)
+
         distribuicao = classificador.prob_classify(novo)
+        feelingid = 0
+        feelingidClassificado = 0
+        probability = str()
+        probabilityClassificado = str()
+        
         for classe in distribuicao.samples():
-            print("%s: %f" % (classe, distribuicao.prob(classe)))
+            if (classe == "alegria"):
+                feelingid = 1
+            elif (classe == "desgosto"):
+                feelingid = 2
+            elif (classe == "tristeza"):
+                feelingid = 3
+            elif (classe == "medo"):
+                feelingid = 4
+            probability = distribuicao.prob(classe)
+
+            print("Código do sentimento =  ", feelingid)
+            
+            print("Probabilidade do sentimento do sentimento =  ", probability)
+            
+            if emailClassificado == classe:
+                feelingidClassificado = feelingid
+                probabilityClassificado = probability
+                cur = con.cursor()                
+                postgres_insert_query = """ INSERT INTO email_feeling (id, feelingid, probability, emailid, email_feelingid) VALUES (%s,%s,%s,%s,%s)"""
+                record_to_insert = (count, feelingidClassificado, probabilityClassificado, recEmail[3], count)
+                cur.execute(postgres_insert_query, record_to_insert)
+                con.commit()
+                count = count + 1
+   
+           # print("%s: %f" % (classe, distribuicao.prob(classe)))
+
+        print("Código do sentimento classificado=  ", feelingidClassificado)
+        
+        print("Probabilidade do sentimento do sentimento =  ", probabilityClassificado)
+    con.close()
 
 
-        con.close()
+
+    # for rec in recset:
+
+    #     teste = str(rec)
+    #     teste = txtClean.removerCaracteresEspeciais(teste)
+    #     print (teste)
+    #     print("-----------------------------------------------------------------------------------------------------------------------------------------")
+
+    #     #teste = 'Boa Tarde, Favor verificar porque não consigo cadastrar um país, nem com senha mestre Aguardo'
+    #     testestemming = []
+    #     stemmer = nltk.stem.RSLPStemmer()
+    #     for (palavrastreinamento) in teste.split():
+    #         comstem = [p for p in palavrastreinamento.split()]
+    #         testestemming.append(str(stemmer.stem(comstem[0])))
+    #     print(testestemming)
+
+    #     novo = extratorpalavras(testestemming)
+    #     #print(novo)
+
+    #     print(classificador.classify(novo))
+    #     distribuicao = classificador.prob_classify(novo)
+    #     for classe in distribuicao.samples():
+    #         print("%s: %f" % (classe, distribuicao.prob(classe)))
+
+
+    #     con.close()
 
