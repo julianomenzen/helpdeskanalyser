@@ -1,23 +1,22 @@
-# Date: 14/06/2019
+# Date: 02/27/2019
 # Developer: Miromar J. Lima
-# Description: Generate schema to database.
+# Description: xxx.
 
 #Tests
 
 # db = DAL("postgres://postgres:postgres@pgsql.jmenzen.com.br:5432/jmenzen", pool_size=10)
 db = DAL("postgres://postgres:postgres@localhost:5432/jmenzen", pool_size=10)
 # Server
-# db = DAL("postgres://postgres:postgres@191.4.204.167:5432/intelligentfactory", pool_size=10)
 
-migrate = True
+migrate = False
 
 db.define_table('email',
     Field('emailid', type='id'),
-    Field('id', type='string', length=100),
+    #Field('id', type='id'),
     Field('email_title', type='string', length=100),
     Field('email_text', type='string', length=500),
     Field('email_dataset_id', type='integer'),
-    Field('email_date', type='datetime'),
+    #Field('email_date', type='datetime'),
     Field('email_user_id', type='integer'),
     migrate=migrate)
 
@@ -31,12 +30,12 @@ db.define_table('email_feeling',
 db.define_table('feeling',
     Field('feelingid', type='id'),
     Field('feeling_name', type='string', length=100),
-    Field('id', type='string', length=100),
+    #Field('id', type='string', length=100),
     migrate=migrate)
 
 db.define_table('sender_to',
+    #Field('emailid', type='string', length=100),
     Field('id', type='string', length=100),
-    #Field('emailid', type='id'),
     Field('email_to', type='string', length=100),
     migrate=migrate)
 

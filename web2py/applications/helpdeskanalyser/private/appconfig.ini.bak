@@ -15,7 +15,7 @@ names = localhost:*, 127.0.0.1:*, *:*, *, pgsql.jmenzen.com.br:5432
 
 ; db configuration
 [db]
-uri       = postgres://postgres:postgres@pgsql.jmenzen.com.br:5432/jmenzen
+uri       = postgres://postgres:postgres@localhost:5432/jmenzen
 migrate   = true
 pool_size = 10  
 
