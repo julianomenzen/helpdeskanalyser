@@ -46,6 +46,33 @@ basetreinamento = [
 ('estou ótimo', 'alegria'),
 ('estou entusiasmado', 'alegria'),
 ('estou contente', 'alegria'),
+('SIM E ERRO OPERACIONAL VOCES FIZERAM A ALTERACAO E JA ENVIAMOS OS DADOS COMO PROVA',	'alegria'),
+('Em todas as notas de entrada. Sim, na empresa', 	'alegria'),
+('Tudo certo, ja conseguimos. Atenciosamente',	'alegria'),
+('Pode me ligar aqui na Nopin Caxias ou ligo ai falo com quem fica melhor pra explicar!',	'alegria'),
+('Bom dia Vanessa! Tudo bem?',	'alegria'),
+('Venha buscar a app que vai revolucionar o seu negocio! Nao tem app propria? Entao, o Quero foi criado para voce! Lembra nossa brincadeira',	'alegria'),
+('Oi Gente! Boa tarde! Com base no reportado podemos resolver da seguinte foma',	'alegria'),
+('Bom dia!Conforme falamos somos do Itau-Unibanco da Celula de Implantacao Cash, acompanharemos empresa com envio  arquivo  teste e homo',	'alegria'),
+('Obrigada Juliano, Fico no aguardo para utilizacao desta ferramenta pois achei muito util. Pena que so descobrimos agora, nunca nos foi informado',	'alegria'),
+('Eu consigo abrir em Bloco de Notas ou fazer leitura pelo Soft',	'alegria'),
+('Tudo certo. Obrigad',	'alegria'),
+('Ja estamos verificando.Parece ser um problema de cadastro de produto, mas ja estamos verificando. Vou sincronizar os pedidos agora indivi',	'alegria'),
+('Boa Noite, Rodrigo! Irei encaminhar a sua solicitacao para o suporte! Favor abrir o atendimento.', 	'alegria'),
+('Bom dia Precisamos relatorio que demonstre todos os clientes e fornecedores em aberto ate',	'alegria'),
+('O que nao esta funcionando?Eu acessei normalmente aquilo que foi me dito que nao estava de acordo. E so no seu computador que esta ocorre',	'alegria'),
+('Segue nova planilha, pois aumentou a quantidade de itens.',	'alegria'),
+
+
+
+('Porque aparece essa mensagem em todos os itens na hora de gravar uma nota de transferencia?',	'desgosto'),
+('Debora  bom dia, Nao aceitamos a tua informacao de que devemos dar entrada sem tributar o ICMS. Pois como iremos pesquisar essas notas no',	'desgosto'),
+('Estou desde ontem tentando ligar pra vcs. e esta sempre ocupado, preciso saber sobre meu atendimento , se posso esperar ou nao',	'desgosto'),
+('Estou ligando toda a tarde e da mensagem que todas as posicoes estao ocupadas. Alguem pode me dar retorno?',	'desgosto'),
+('A senha da Sandra sempre liberou esse tipo de bloqueio e porque desde ontem nao mais?',	'desgosto'),
+('Quem quer a prova somos nos clientes Favor nos enviar com todos os detalhes de todas nossas pendencias Todos os erros que estao ocorre',	'desgosto'),
+('COMO QUE ESTA MOVIMENTANDO ESTOQUE  A OPERACAO ESTA DUPLIACANDO A SAIDA DE TODOS OS ITENS! DESSE',	'desgosto'),
+('Sabe o que aconteceu com a tela de geracao manual dos arquivos para Strategia?',	'desgosto'),
 
 ('você e abominável','desgosto'),
 ('abomino a maneira como você age','desgosto'),
@@ -139,6 +166,8 @@ basetreinamento = [
 # ('não há animal mais degradante, estúpido, covarde, lamentável, egoísta, rancoroso e invejoso do que o homem','desgosto'),
 # ('o virulento debate ente políticos','desgosto'),
 
+('não me diga','tristeza'),
+('nao adianta','tristeza'),
 ('por favor não me abandone','tristeza'),
 ('não quero ficar sozinha','tristeza'),
 ('não me deixe sozinha','tristeza'),
@@ -155,6 +184,45 @@ basetreinamento = [
 ('me sinto ansiosa e tensa','tristeza'),
 ('não consigo parar de chorar','tristeza'),
 ('não consigo segurar as lagrimas','tristeza'),
+
+('Oi Boa tarde!!preciso que me passem como devemos fazer para que o o nosso produto cadastrado que tem a referencia do cliente cadastrada na manute',	'tristeza'),
+('Ola Vanessa, no caso tentei acessar aqui para testar, ainda esta aparecendo a mensagem informando que so temos prazo de 6 dias. Obrigado',	'tristeza'),
+('Ok, so que na epoca o sefaz validou. So quero gerar a Danfe para enviar pro cliente. Como devo fazer entao?',	'tristeza'),
+('Oi, favor ligar para mim quando conectar, preciso dar o OK na conexao do team viewer. ',	'tristeza'),
+('Senhores, boa tarde!! preciso URGENTE que vejam essa situacao abaixo da OC que nao fica gravada nos ORCAMENTOS e que nao vai para o pedido',	'tristeza'),
+('ola  boa tarde Joana estou encaminhando seu e-mail  para o suporte verificar, obrigado.Favor verificar situacao com o cliente ,  ob',	'tristeza'),
+('Ola, Estarei ausente de 12 de julho a 25 de julho. Por favor encaminhe o e-mail para suporte@softbyte.com.br.Atenciosamente, Debora P',	'tristeza'),
+('Ola, Estarei ausente de 12 de julho a 25 de julho.Por favor encaminhe o e-mail para ',	'tristeza'),
+('Ola!Favor verificar pois nao conseguimos transferir XML para escritorio ref as NFs e ',	'tristeza'),
+('DEBORA! ESTOU SAINDO AGORA DA UNIFERRO, VAMOS DEIXAR PARA FAZER A ATUALIZACAO AMANHA A PRIMEIRA HORA. SO A DATA VAI TER QUE SAIR COM A DATA',	'tristeza'),
+('Ola, Estarei ausente de 12 de julho a 25 de julho. Por favor encaminhe o e-mail para suporte@softbyte.com.br.',	'tristeza'),
+('Favor verificar a situacao abaixo, nao consigo cadastrar uma condicao de pagamento e o pacote',	'tristeza'),
+('Bom Dia, Nao esta abrindo a tabela de reajuste para marcas. Preciso colocar em vigor novo preco em?',	'tristeza'),
+('Nao consigo enviar nf no portal, aparecea seguir;',	'tristeza'),
+('Falei com o pessoal da Guardian agora. Eles nos contataram para agendar a migracao para a versao 9.2, somente este assunto, nao devido a nenhum outr',	'tristeza'),
+('Carlos, boa tarde, Realmente ate o presente momento nao tivemos nenhum contato deles. Eu vou ligar para a Guardian agora mesmo.',	'tristeza'),
+('Juliano, nao consigo contato nem pelo celular nem pela central.O problema esta ocorrendo novamente, estamos sem portal NFe.Favor verificar urgente',	'tristeza'),
+('POR FAVOR NOS PROVE QUE FOI ERRO OPERACIONAL!PARA PODER AFIRMAR DESSA MANEIRA NOS PROVE. PELO CONTRARIO',	'tristeza'),
+('O qual nao foi resolvido  via remoro outra vez',	'tristeza'),
+('BOM DIA QUAL A SOLUCAO? QUAL A ARGUMENTACAO DESSA VEZ? E NOSSO ESTOQUE COMO VAMOS CONTINUA',	'tristeza'),
+('VARIOS DIAS DEIXEI P/ ACESSAREM E NAO O FIZERAM, ENTAO HJ RESOLVER NO HORARIO DAS',	'tristeza'),
+('Urgente Estou faturando para isento fora do estado e nao esta fazendo o calculo de diferencial de aliquota, conforme o Cassio me passou.',	'tristeza'),
+('Por favor me prove que nao foi, pois, ate agora nada de provas.','tristeza'),
+('Boa tarde Situacao ainda nao resolvida?','tristeza'),
+('Portal fica so processando e nao sai nada',	'tristeza'),
+('CONTINUO SEM ACESSO AS PASTAS DO SISTEMA? ULTIMO DIA DE TRABALHO HOJE AQUI NA ALPA E DESSA FORMA O SISTEMA',	'tristeza'),
+('ESTAMOS SEM SISTEMA E SEM EMITIR NF LIGAMOS NA SOFTBYTE E CHAMA E NINGUEM ATENDE FAVOR URGENTE NOS RETORNAR',	'tristeza'),
+('Preciso desmembrar o titulo um valor para e o outro p	','tristeza'),
+('ok, so ficou uma duvida Porque existem dois campos de base de calculo ICMSe',	'tristeza'),
+('Se ja alguma vez falou conosco, deve conhecer o Alessandro, o David, o Hugo, o Tito ou o Renato. Mas ao final de tantos anos, sinto que ja era tempo',	'tristeza'),
+('O QUE E ISSO QUE RECEBEMOS TODOS OS DIAS E NINGUEM RETORNA?',	'tristeza'),
+('Hj completa semana que esta mais dificil de trabalhar Clientes aguardando emi',	'tristeza'),
+('Bom Dia, Nao estamso conseguindo trabalhar, sistema lento Nao consigo ne',	'tristeza'),
+('Bom Dia,Cfe email da IT Brasil, sua descricao abaixo nao confere. As',	'tristeza'),
+('FAVOR RESPONDER POR E-MAIL EM COPIA PARA','tristeza'),
+('Nao estou conseguindo ligar pra vcs... alguem do suporte pode me ligar, por favor','tristeza'),
+('Preciso da informacoes de voces para saber porque aparece as observacoes para um usuario e nao para o outro na tela abaixo. Percebi que todas as', 'tristeza'),
+
 # ('e muita dor perder um ente querido','tristeza'),
 # ('estou realmente arrependida','tristeza'),
 # ('acho que o carma volta, pois agora sou eu quem sofro','tristeza'),
@@ -225,6 +293,35 @@ basetreinamento = [
 # ('aquele que nunca viu a tristeza nunca reconhecerá a alegria','tristeza'),
 # ('cuidado com a tristeza ela e um vicio','tristeza'),
 
+
+('Pessoal,E normal o campo da csosn ficar sobre o da cst?Segue em anexo como esta exibindo nos detalhes do produto, no momento da entrada de notas',	'medo'),
+('Esta ocorrendo no TS, aonde todas filiais conectam ',	'medo'),
+('Sim, esta gravada, aparece essa mensagem de todos os itens da nota, entao vou clicando ok, ate gravar, aparece em todas de retorno.',	'medo'),
+('Suporte Com quem esta este assunto? Ja que a Debora retorna dia 25. Preciso de retorno.',	'medo'),
+('Oi bom dia gaby estarei encaminhando seu atendimento pra o suporte verificar. Oi bom dia, verificar situacao que esta ocorrendo n',	'medo'),
+('problema sistema o valor da nota e 2142,41 e o sistema esta alterando o valor dos titulos',	'medo'),
+('voce consegue colocar essa informacao na NF ja gravada? Para nao termos que excluir a NF e salvar',	'medo'),
+('Certo, mas no cadastro do produto no Tipo ICMS nao tem a opcao OUTROS, para que possa acompanhar com a OPF, como faco?',	'medo'),
+('Bom dia! Ate o momento nao identificamos o envio da remessa teste e boleto, ha alguma previsao de envio?',	'medo'),
+('Nao e necessario inutilizar a mesma no portal? E no arquivo que sera enviado ao escritorio contabil ela vai aparecer',	'medo'),
+('Conforme a Vanessa  verificou a nota fiscal 64966 ao gerar o beneficiador alguns produtos estava  assumindo a CFOP 5,000 onde o correto  e 5,924',	'medo'),
+('Esta cobranca e devida, deve ser paga.',	'medo'),
+('FOI RESOLVIDO? ESTAMOS MAIS UMA VEZ DEIXANDO DE VENDER MATERIAL POIS O SISTEMA NAO TEM ESTOQUE MAS FISICAMNETE TEM!',	'medo'),
+('Ola, Com as informacoes recebidas ate agora nao tenho condicoes de identificar nenhum problema, pois isso parece vir do sistema de contabilidade.',	'medo'),
+('Eu nao estou conseguindo baixar os cheques',	'medo'),
+('Nao estamos conseguindo baixar cheques',	'medo'),
+('BOM DIA O QUE E ESSE AVISO?DE QUAL NF? DE QUAL SERVICO?',	'medo'),
+('Boa tarde, Gostariamos de saber se esta tudo OK para  o sistma comecar a operar com ICMS 18%?',	'medo'),
+('Este produto esta negativo, veja abaixo o ultimo movimento de estoque.O que esta apontado na imagem enviada anteriormente e um movimento de entrada',	'medo'),
+('NAO ESTOU CONSEGUINDO ENVIAR A NOTA A SEGUIR. CLICO NO NUMERO E APARECE O CAMPO DA LUPA E SELECIONO E NAO DESAPARECE. FAVOR VERIFICAR.',	'medo'),
+('Bom dia.Preciso saber como se faz o cancelamento de uma solicitacao de compra, que ja foi autorizada pelo usuario mestre',	'medo'),
+('A Ordem de Servico  teve a sua situacao alterada para Data de Prazo para a conclusso desta Ordem de Serviço ? para o dia',	'medo'),
+('Favor abrir um chamado ref erro do sistema No dia foi alterado o representante do terceiro 10930. No dia 07/08 foi feito um pedido e o terc',	'medo'),
+('A Ordem de Servi?o 2 teve a sua situa??o alterada para  13 - SERVI?O CONCLU A Data de Prazo para a conclus?o desta Ordem de Servi?o ? para o dia',	'medo'),
+('Favor abrir um chamado ref erro do sistema: No dia foi alterado o representante do terceiro 10930. No dia 07/08 foi feito um pedido e o terc',	'medo'),
+('o que é isso', 'medo'),
+('meu Deus','medo'),
+('nao faça isso','medo'),
 ('eu imploro, não me matem!','medo'),
 ('tem certeza que não e perigoso?','medo'),
 ('não tenho certeza se e seguro','medo'),
@@ -628,9 +725,19 @@ for (frase, classe) in basecompletateste:
                 feelingidClassificado = feelingid
                 probabilityClassificado = probability
                 cur = con.cursor()                
-                postgres_insert_query = """ INSERT INTO email_feeling (id, feelingid, probability, emailid, email_feelingid) VALUES (%s,%s,%s,%s,%s)"""
-                record_to_insert = (count, feelingidClassificado, probabilityClassificado, recEmail[3], count)
+                postgres_insert_query = """ INSERT INTO email_feeling (id, feelingid, probability, emailid) VALUES (%s,%s,%s,%s)"""
+                record_to_insert = (count, feelingidClassificado, probabilityClassificado, recEmail[3])
                 cur.execute(postgres_insert_query, record_to_insert)
+                con.commit()
+                # Tratamento para desconsiderar saudações iniciais, de modo a não permiitr que estas classificações sirvam para a base de treinamento
+                print("TESTE>>>> teste[:7]lower() = ", teste[:7].lower())
+                teste = teste.strip()
+                print("TESTE>>>> teste sem quebra de linhas) = ", teste)
+                # and teste[:7].lower() != 'bom dia' and teste[:7].lower() != 'boa tar' and teste[:7].lower() != 'bom noi'
+                if probabilityClassificado >= 0.80  and teste[:3].lower() != 'att' and teste[:2].lower() != '--' and teste[:7] != '' and teste[:3] != 'http'  and len(teste[:7]) > 0:
+                    postgres_insert_query_dataset = """ INSERT INTO dataset_training (dataset_textemail, dataset_feelingid, dataset_feelingclasse) VALUES (%s,%s,%s)"""
+                    record_to_insert_dataset = (teste, feelingidClassificado, classe)
+                    cur.execute(postgres_insert_query_dataset, record_to_insert_dataset)   
                 con.commit()
                 count = count + 1
    
@@ -638,34 +745,5 @@ for (frase, classe) in basecompletateste:
 
         print("Código do sentimento classificado=  ", feelingidClassificado)
         
-        print("Probabilidade do sentimento do sentimento =  ", probabilityClassificado)
+        print("Probabilidade do sentimento =  ", probabilityClassificado)
     con.close()
-
-
-
-    # for rec in recset:
-
-    #     teste = str(rec)
-    #     teste = txtClean.removerCaracteresEspeciais(teste)
-    #     print (teste)
-    #     print("-----------------------------------------------------------------------------------------------------------------------------------------")
-
-    #     #teste = 'Boa Tarde, Favor verificar porque não consigo cadastrar um país, nem com senha mestre Aguardo'
-    #     testestemming = []
-    #     stemmer = nltk.stem.RSLPStemmer()
-    #     for (palavrastreinamento) in teste.split():
-    #         comstem = [p for p in palavrastreinamento.split()]
-    #         testestemming.append(str(stemmer.stem(comstem[0])))
-    #     print(testestemming)
-
-    #     novo = extratorpalavras(testestemming)
-    #     #print(novo)
-
-    #     print(classificador.classify(novo))
-    #     distribuicao = classificador.prob_classify(novo)
-    #     for classe in distribuicao.samples():
-    #         print("%s: %f" % (classe, distribuicao.prob(classe)))
-
-
-    #     con.close()
-
